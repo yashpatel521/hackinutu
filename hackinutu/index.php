@@ -4,19 +4,7 @@ require_once("include/header.php");
 ?>
 <!DOCTYPE html>
 <html>
-<head>
-<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
-    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css"/>
 
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4-4.1.1/jq-3.3.1/dt-1.10.21/datatables.min.css"/>
-
-<script type="text/javascript" src="https://cdn.datatables.net/v/bs4-4.1.1/jq-3.3.1/dt-1.10.21/datatables.min.js"></script>
-
-</head>
 <body id="page-top">
     <div id="wrapper">
         <?php require_once("include/sidebar.php");?>
@@ -107,14 +95,7 @@ require_once("include/header.php");
     </div>
 
 
-    <script type="text/javascript">
-    $(document).ready(function(){
-    $('table').DataTable({
-        ordering:false
-    });
-    });
-</script>
-     <!-- <script src="assets/js/jquery.min.js"></script> -->
+    <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/chart.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
